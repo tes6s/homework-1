@@ -15,3 +15,96 @@ section {
 #first-section{
     
 }
+
+header{
+    width: %50
+    text-aling
+}
+
+nav{
+    width: %50
+    
+
+}
+article h2{
+    color:chocolate
+
+}
+header nav ul li a {
+    text-decoration: none;
+}
+/* 
+class - 10
+#id - 100
+inside - 1000
+
+*/
+
+.box {
+    height: 200px;
+    width: 300px;
+    background-color: crimson;
+    margin: 0 auto;
+    transition: all 0.5s;
+}
+.box:hover{
+    width: 500px;
+    background-color: darkgreen;
+}
+
+header,
+ main {
+    width: 1000px;
+    margin: 0 auto;
+}
+input[type=text], 
+input[type=checkbox],
+input[type=radio],
+input[type=button] {
+    border-radius: 25px ;
+}
+
+.custom-list {
+    list-style: none;
+}
+.custom-list li::before {
+    content:\2615;
+    margin: 10px;
+    color: crimson;
+}
+
+text-link:visited {
+    color:cyan
+}
+.test-link:active {
+    color:darkblue
+}
+.test-link:
+
+.structure-list li:nth-child(odd) {
+    
+}
+.structure-list li:nth-child(3n) {
+    background-color: darkolivegreen;
+}
+.structure-list li:last-child {
+    text-transform: capitalize;
+}
+.structure-list H2:nth-child(8) {
+    background-color: darkorchid;
+}
+.structure-list li:nth-child(7) + h2 {
+    background-color: deeppink;
+}
+.bg-1 {
+    background: url(../homework-02.jpg) center top / cover no-repeat
+    
+}
+.bg-2 {
+    height: 500px;
+    background-image:url(../homework-02.jpg) ;
+    background-repeat: repeat-x;
+    background-size: 200px;
+    background-position: bottom  ;
+    
+}
